@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/glazkov/task/ParseCSV.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="68" column="39" lean-forward="true" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
+            <state relative-caret-position="311">
+              <caret line="100" column="53" lean-forward="true" selection-start-line="100" selection-start-column="53" selection-end-line="100" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1374#1375#0" expanded="true" />
@@ -43,8 +43,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="422">
-                <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+              <first_editor relative-caret-position="357">
+                <caret line="51" column="54" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
               </first_editor>
               <second_editor />
             </state>
@@ -306,7 +306,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563448958808</updated>
-      <workItem from="1563448961547" duration="11483000" />
+      <workItem from="1563448961547" duration="12884000" />
     </task>
     <task id="LOCAL-00001" summary="master Тестовое задание в AIMCo">
       <created>1563458556534</created>
@@ -357,7 +357,42 @@
       <option name="project" value="LOCAL" />
       <updated>1563461423375</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="master Тестовое задание в AIMCo">
+      <created>1563461446627</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1563461446627</updated>
+    </task>
+    <task id="LOCAL-00009" summary="master Тестовое задание в AIMCo">
+      <created>1563461472253</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1563461472253</updated>
+    </task>
+    <task id="LOCAL-00010" summary="master Тестовое задание в AIMCo">
+      <created>1563461512966</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1563461512966</updated>
+    </task>
+    <task id="LOCAL-00011" summary="master Тестовое задание в AIMCo">
+      <created>1563461546234</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1563461546234</updated>
+    </task>
+    <task id="LOCAL-00012" summary="master Тестовое задание в AIMCo">
+      <created>1563461633501</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1563461633501</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -393,7 +428,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11483000" />
+    <option name="totallyTimeSpent" value="12884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -480,10 +515,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/glazkov/task/ParseCSV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="68" column="39" lean-forward="true" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
+        <state relative-caret-position="311">
+          <caret line="100" column="53" lean-forward="true" selection-start-line="100" selection-start-column="53" selection-end-line="100" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1374#1375#0" expanded="true" />
@@ -492,16 +532,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="422">
-            <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+          <first_editor relative-caret-position="357">
+            <caret line="51" column="54" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
           </first_editor>
           <second_editor />
         </state>

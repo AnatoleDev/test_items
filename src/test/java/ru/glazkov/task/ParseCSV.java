@@ -80,7 +80,7 @@ class ParseCSV {
         long endTime = System.currentTimeMillis();
         System.out.println("Total execution time: " + (endTime - startTime) + "ms");
         System.out.println(result);
-        Assertions.assertEquals(result.get("nameBox").get(0), "жорж;");
+        Assertions.assertEquals(result.get("nameBox").get(0), "мария");
     }
 
     @Test
@@ -114,6 +114,6 @@ class ParseCSV {
         long endTime = System.currentTimeMillis();
         System.out.println("Total execution time: " + (endTime - startTime) + "ms");
         System.out.println(result);
-        Assertions.assertEquals(result.get("nameBox").get(0), "жорж;");
+        Assertions.assertEquals(result.get("nameBox").get(0), "мария");
     }
 }
