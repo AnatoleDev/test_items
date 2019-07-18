@@ -64,7 +64,7 @@ class ParseCSV {
                     List<String> headValue = new ArrayList<>();
                     for (String body : bodies) {
                         // сплитим каждую строку
-                        headValue.add(Arrays.asList(body.split(";")).get(countPos) + ";");
+                        headValue.add(Arrays.asList(body.split(";")).get(countPos));
                     }
                     //удаляем дубликаты
                     result.put(head, new ArrayList<>(new HashSet<>(headValue)));
@@ -101,7 +101,7 @@ class ParseCSV {
                         for (String head : headers) {
                             List<String> headValue = new ArrayList<>();
                             for (String body : bodies) {
-                                headValue.add(Arrays.asList(body.split(";")).get(countPos) + ";");
+                                headValue.add(Arrays.asList(body.split(";")).get(countPos));
                             }
                             result.put(head, new ArrayList<>(new HashSet<>(headValue)));
                             countPos++;
