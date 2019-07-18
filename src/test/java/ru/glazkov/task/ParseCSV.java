@@ -47,9 +47,11 @@ class ParseCSV {
     @DisplayName("Процесс последовательного парсинга файла")
     void parseCSVOfFiles() {
         long startTime = System.currentTimeMillis();
+        // перебераем все файлы
         pathFile.forEach(path -> {
             try {
                 final Scanner fileCSV = new Scanner(new FileReader(path));
+                // находим заголовок
                 final String[] headers = fileCSV.nextLine().split(";");
 
                 List<String> bodies = new ArrayList<>();
@@ -57,12 +59,16 @@ class ParseCSV {
                     bodies.add(fileCSV.nextLine());
                 }
                 int countPos = 0;
+                // перебераем все заголовки
                 for (String head : headers) {
                     List<String> headValue = new ArrayList<>();
                     for (String body : bodies) {
-                        headValue.add(Arrays.asList(body.split(";")).get(countPos));
+                        // сплитим каждую строку
+                        headValue.add(Arrays.asList(body.split(";")).get(countPos) + ";");
                     }
-                    result.put(head, headValue);
+                    //удаляем дубликаты
+                    result.put(head, new ArrayList<>(new HashSet<>(headValue)));
+                    // увеличиваем показатель заголовка
                     countPos++;
                 }
                 fileCSV.close();
@@ -74,13 +80,14 @@ class ParseCSV {
         long endTime = System.currentTimeMillis();
         System.out.println("Total execution time: " + (endTime - startTime) + "ms");
         System.out.println(result);
-        Assertions.assertEquals(result.get("nameBox").get(0), "ричард");
+        Assertions.assertEquals(result.get("nameBox").get(0), "жорж;");
     }
 
     @Test
     @DisplayName("Процесс парарелльного парсинга файла")
     void parseCSVparallel() {
         long startTime = System.currentTimeMillis();
+        // запускаем парралельный стрим файлов.
         pathFile.stream().parallel().unordered()
                 .forEach(path -> {
                     try {
@@ -94,9 +101,9 @@ class ParseCSV {
                         for (String head : headers) {
                             List<String> headValue = new ArrayList<>();
                             for (String body : bodies) {
-                                headValue.add(Arrays.asList(body.split(";")).get(countPos));
+                                headValue.add(Arrays.asList(body.split(";")).get(countPos) + ";");
                             }
-                            result.put(head, headValue);
+                            result.put(head, new ArrayList<>(new HashSet<>(headValue)));
                             countPos++;
                         }
                         fileCSV.close();
@@ -107,6 +114,6 @@ class ParseCSV {
         long endTime = System.currentTimeMillis();
         System.out.println("Total execution time: " + (endTime - startTime) + "ms");
         System.out.println(result);
-        Assertions.assertEquals(result.get("nameBox").get(0), "ричард");
+        Assertions.assertEquals(result.get("nameBox").get(0), "жорж;");
     }
 }
