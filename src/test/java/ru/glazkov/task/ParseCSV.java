@@ -8,7 +8,7 @@ import java.io.FileReader;
 import java.util.*;
 
 //17:58 Старт
-//18:28 Логика задания решина не оптимально.
+//18:28 Логика задания решена не оптимально.
 //19:05 Проведен рефакторинг, изучение многопоточности.
 //19:13 Использован метод для паррарельного запуска.
 //19:13 Переход к стадии анализа.
@@ -44,7 +44,7 @@ class ParseCSV {
     }
 
     @Test
-    @DisplayName("Процесс парсинга файла")
+    @DisplayName("Процесс последовательного парсинга файла")
     void parseCSVOfFiles() {
         long startTime = System.currentTimeMillis();
         pathFile.forEach(path -> {
@@ -78,7 +78,7 @@ class ParseCSV {
     }
 
     @Test
-    @DisplayName("Процесс пррарельного запуска")
+    @DisplayName("Процесс парарелльного парсинга файла")
     void parseCSVparallel() {
         long startTime = System.currentTimeMillis();
         pathFile.stream().parallel().unordered()

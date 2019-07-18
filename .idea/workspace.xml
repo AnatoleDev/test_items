@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3f5f8b28-f7bd-4969-ac66-a4571c08451d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/glazkov/task/ParseCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/glazkov/task/ParseCSV.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/glazkov/task/ParseCSV.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="104" column="21" lean-forward="true" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
+            <state relative-caret-position="374">
+              <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1374#1375#0" expanded="true" />
@@ -41,8 +42,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="255">
-                <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+              <first_editor relative-caret-position="85">
+                <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
               </first_editor>
               <second_editor />
             </state>
@@ -135,8 +136,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/input1.csv" />
         <option value="$PROJECT_DIR$/src/main/resources/input5.csv" />
         <option value="$PROJECT_DIR$/src/main/resources/input4.csv" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/glazkov/task/ParseCSV.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/glazkov/task/ParseCSV.java" />
       </list>
     </option>
   </component>
@@ -304,7 +305,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563448958808</updated>
-      <workItem from="1563448961547" duration="9541000" />
+      <workItem from="1563448961547" duration="10182000" />
     </task>
     <task id="LOCAL-00001" summary="master Тестовое задание в AIMCo">
       <created>1563458556534</created>
@@ -327,7 +328,21 @@
       <option name="project" value="LOCAL" />
       <updated>1563458660049</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="master Тестовое задание в AIMCo">
+      <created>1563459640998</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1563459640998</updated>
+    </task>
+    <task id="LOCAL-00005" summary="master Тестовое задание в AIMCo">
+      <created>1563460014900</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563460014900</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -363,7 +378,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9541000" />
+    <option name="totallyTimeSpent" value="10182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -456,8 +471,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <first_editor relative-caret-position="85">
+            <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
           </first_editor>
           <second_editor />
         </state>
@@ -465,8 +480,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/glazkov/task/ParseCSV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="104" column="21" lean-forward="true" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
+        <state relative-caret-position="374">
+          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1374#1375#0" expanded="true" />
