@@ -30,11 +30,11 @@ class ParseCSV {
     final void setUp() {
         pathFile = Arrays.asList(
                 PATH_TEMPLATE + File.separator + "input1.csv",
-                PATH_TEMPLATE + File.separator + "input2.csv",
-                PATH_TEMPLATE + File.separator + "input3.csv",
-                PATH_TEMPLATE + File.separator + "input4.csv",
-                PATH_TEMPLATE + File.separator + "input5.csv",
-                PATH_TEMPLATE + File.separator + "input6.csv");
+                PATH_TEMPLATE + File.separator + "input2.csv");
+//                PATH_TEMPLATE + File.separator + "input3.csv",
+//                PATH_TEMPLATE + File.separator + "input4.csv",
+//                PATH_TEMPLATE + File.separator + "input5.csv",
+//                PATH_TEMPLATE + File.separator + "input6.csv");
         result = new HashMap<>();
     }
 
@@ -80,7 +80,7 @@ class ParseCSV {
         long endTime = System.currentTimeMillis();
         System.out.println("Total execution time: " + (endTime - startTime) + "ms");
         System.out.println(result);
-        Assertions.assertEquals(result.get("nameBox").get(0), "мария");
+        Assertions.assertEquals(result.get("name").get(0), "мария");
     }
 
     @Test
@@ -114,6 +114,6 @@ class ParseCSV {
         long endTime = System.currentTimeMillis();
         System.out.println("Total execution time: " + (endTime - startTime) + "ms");
         System.out.println(result);
-        Assertions.assertEquals(result.get("nameBox").get(0), "мария");
+        Assertions.assertEquals(result.get("name").get(0), "мария");
     }
 }
